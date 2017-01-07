@@ -1,14 +1,6 @@
 unit Unit2;
 
 {$mode objfpc}{$H+}
-{
-  ****************************************************************************
-                    (c) 2016 by Dio Affriza under BSD License
-
-            See the file LICENSE.txt, included in this distribution,
-                        for details about the copyright.
-  ****************************************************************************
-}
 
 interface
 

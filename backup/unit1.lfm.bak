@@ -1,0 +1,49 @@
+object Form1: TForm1
+  Left = 217
+  Height = 240
+  Top = 168
+  Width = 533
+  Caption = 'Exe Paranoid for Afsav Protection Prototype'
+  ClientHeight = 240
+  ClientWidth = 533
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '1.6.2.0'
+  Visible = False
+  object Memo1: TMemo
+    Left = 0
+    Height = 184
+    Top = 0
+    Width = 533
+    Align = alTop
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 16
+    Height = 25
+    Top = 200
+    Width = 90
+    Anchors = [akLeft, akBottom]
+    Caption = 'Start'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 120
+    Height = 25
+    Top = 200
+    Width = 97
+    Anchors = [akLeft, akBottom]
+    Caption = 'Stop'
+    Enabled = False
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Timer1Timer
+    left = 166
+    top = 63
+  end
+end
